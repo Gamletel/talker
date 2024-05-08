@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/talker/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/talker/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/haydenpierce/class-finder" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/laragraph/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/nuwave/lighthouse" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/thecodingmachine/safe" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/webonyx/graphql-php" />
+      <excludeFolder url="file://$MODULE_DIR$/talker/vendor/mll-lab/laravel-graphiql" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
