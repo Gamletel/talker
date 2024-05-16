@@ -7,6 +7,7 @@ namespace App\MoonShine\Resources;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\User;
 
+use MoonShine\Fields\Date;
 use MoonShine\Resources\ModelResource;
 use MoonShine\Decorations\Block;
 use MoonShine\Fields\ID;
@@ -41,6 +42,16 @@ class UserResource extends ModelResource
                 Text::make('Имя', 'name'),
                 Text::make('Email', 'email'),
             ]),
+        ];
+    }
+
+    public function detailFields(): array
+    {
+        return [
+            ID::make(),
+            Text::make('Имя', 'name'),
+            Text::make('Email', 'email'),
+            Date::make('Дата регистрации', 'created_at'),
         ];
     }
 

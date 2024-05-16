@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'users'=>'Users',
     'profile' => 'Profile',
     'dashboard' => 'Dashboard',
     'add' => 'Add',

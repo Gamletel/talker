@@ -51,7 +51,9 @@ class MoonShineServiceProvider extends MoonShineApplicationServiceProvider
                ),
             ]),
 
-            MenuItem::make('Пользователи', new UserResource()),
+            MenuItem::make(
+                static fn() => __('moonshine::ui.users'),
+                new UserResource()),
 
             MenuItem::make('Documentation', 'https://moonshine-laravel.com')
                ->badge(fn() => 'Check'),
